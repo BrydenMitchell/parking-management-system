@@ -65,3 +65,21 @@ This application uses firebase to store stall data. Using the format
     }
 }
 ```
+
+### Firebase Config
+
+Connect the application to firebase using the standard firebase config format:
+
+```JSON
+{
+    "config": {
+        "apiKey": "",
+        "authDomain": "",
+        "databaseURL": "",
+        "projectId": "",
+        "storageBucket": "",
+        "messagingSenderId": "",
+        "appId": ""
+    }
+}
+```

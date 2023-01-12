@@ -1,0 +1,11 @@
+.Mui-selected > .MuiListItemIcon-root {
+    color: #FFFFFF;
+}
+
+.MuiListItemButton-root:hover > .MuiListItemIcon-root {
+    color: #FFFFFF;
+}
+
+.MuiDrawer-root {
+    padding: 0;
+}

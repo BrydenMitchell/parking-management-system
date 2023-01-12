@@ -1,0 +1,21 @@
+#map {
+    width:100%;
+    height:100%;
+    color: #CCC;
+    background: #EFEFEF;
+}
+span.loading {
+    display: block;
+    text-align: center;
+    font: 300 italic 72px/400px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+}
+
+#root > div > div.MuiBox-root.MuiBox-root-2 {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    align-items: stretch;
+    margin-right: 400px;
+    overflow: clip;
+    max-height: 100vh;
+}

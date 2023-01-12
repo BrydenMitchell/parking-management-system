@@ -1,0 +1,27 @@
+.leaflet-container {
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-color: #ffffff;
+    margin-top: 75px;
+}
+
+.leaflet-bottom.leaflet-left {
+    left: 5px;
+    bottom: 5px;
+}
+
+.selected-stalls-card {
+    width: 300px;
+}
+
+.leaflet-control-attribution {
+    display: none;
+}
+
+.leaflet-draw-edit-remove {
+    display: none;
+}
+
+.area-name {
+    font-weight: bold;
+}

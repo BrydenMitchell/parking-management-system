@@ -12,6 +12,7 @@ import React from "react";
 import HomeIcon from "@mui/icons-material/Home";
 import FormatAlignLeftSharpIcon from "@mui/icons-material/FormatAlignLeftSharp";
 import DateRangeIcon from "@mui/icons-material/DateRange";
+import {DirectionsCar} from "@mui/icons-material";
 
 
 function VFSAppBar(props) {
@@ -24,7 +25,7 @@ function VFSAppBar(props) {
         justifyContent: "left",
         alignItems: "center",
         background: theme.palette.primary.main,
-        color: "#fff"
+        color: "#fff",
     }
     const navigate = useNavigate()
     const [selectedIndex, setSelectedIndex] = React.useState(props.index);
@@ -81,9 +82,9 @@ function VFSAppBar(props) {
     return(
         <AppBar sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
             <Toolbar style={toolBarStyle}>
-                <img src={logo} alt={"Vancouver Film Studios"} style={logoStyle}/>
-                <Typography variant={"h6"} noWrap component={"div"}>
-                    VFS Parking Management
+                <DirectionsCar />
+                <Typography style={{marginLeft: 10}} variant={"h6"} noWrap component={"div"}>
+                    Parking Management
                 </Typography>
                 <FillWidthSpacer />
                 <Button sx={() => {return getButtonSX(0)}}
